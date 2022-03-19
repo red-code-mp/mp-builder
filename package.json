@@ -46,7 +46,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Khalid-Sami/mp-builder.git"
+    "url": "git+https://github.com/red-code-mp/mp-builder.git"
   },
   "keywords": [
     "vue",
