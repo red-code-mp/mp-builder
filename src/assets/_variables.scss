@@ -1,0 +1,87 @@
+// Base grayscale colors definitions
+$white: #fff !default;
+$gray-100: #917967 !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+// Base colors definitions
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+$red-200: #7d4b47 !default;
+$blue-200: #7296ab !default;
+$green-250: #618563 !default;
+$blue-300: #3a4e6e !default;
+$green-120: #6d6a0d !default;
+$brown-200: #85674a !default;
+$blue-180: #517287 !default;
+$green-130: #acb564 !default;
+$green-150: #7ced72 !default;
+$blue-170: #6ef0ee !default;
+$yellow-160: #bdb946 !default;
+
+// Theme color default definitions
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+$decrease: $red-200 !default;
+$increase: $blue-200 !default;
+$executed: $green-250 !default;
+$uncompleted: $blue-300 !default;
+$received: $green-120 !default;
+$preview: $brown-200 !default;
+$confirm : $blue-180 !default;
+$wait_adjusted: $green-130 !default;
+$adjusted: $green-150 !default;
+$send: $blue-170 !default;
+$cancel: $yellow-160 !default;
+
+// This table defines the theme colors (variant names)
+$theme-colors: () !default;
+$theme-colors: map-merge(
+        (
+            'primary': $primary,
+            'secondary': $secondary,
+            'success': $success,
+            'info': $info,
+            'warning': $warning,
+            'danger': $danger,
+            'light': $light,
+            'dark': $dark,
+            'decrease': $decrease,
+            'increase': $increase,
+            'executed': $executed,
+            'uncompleted': $uncompleted,
+            'received': $received,
+            'preview': $preview,
+            'confirm': $confirm,
+            'wait_adjusted': $wait_adjusted,
+            'adjusted': $adjusted,
+            'send': $send,
+            'cancel': $cancel
+        ),
+        $theme-colors
+);
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/_variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";

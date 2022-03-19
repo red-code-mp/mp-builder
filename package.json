@@ -1,0 +1,60 @@
+{
+  "name": "@red-code/mp-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "authors":[
+    {
+      "name": "Amr Saidam",
+      "email": "amr.saidam.94@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Khalid Sabbah",
+      "email": "khalidsami.se@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "firebase": "^8.2.9",
+    "vee-validate": "^3.4.5",
+    "vue-good-table": "^2.21.7",
+    "vue-i18n": "^8.24.1",
+    "vue-moment": "^4.1.0",
+    "vue-reactive-provide": "^0.3.0",
+    "vue-router": "^3.5.1",
+    "vue-swatches": "^2.1.0",
+    "vue-sweetalert2": "^3.0.8",
+    "vue-tree-table-component": "^0.1.1",
+    "vuejs-datepicker": "^1.6.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "sass-loader": "^7.1.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khalid-Sami/mp-builder.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "bootstrap",
+    "BootstrapVue",
+    "table",
+    "datatable",
+    "VueGoodTable"
+  ]
+}
