@@ -1,5 +1,5 @@
 {
-  "name": "@red-code/mp-builder",
+  "name": "@red-code-mp/mp-builder",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
